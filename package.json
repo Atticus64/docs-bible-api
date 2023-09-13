@@ -1,13 +1,12 @@
 {
-  "name": "hono.dev",
+  "name": "bible-docs-api.dev",
   "version": "3.0.0",
+  "type": "module",
   "scripts": {
     "dev": "vitepress dev",
     "build": "vitepress build",
     "preview": "vitepress preview"
   },
-  "repository": "git@github.com:honojs/website.git",
-  "author": "Yusuke Wada <yusuke@kamawada.com>",
   "license": "MIT",
   "devDependencies": {
     "vitepress": "^1.0.0-beta.5",
