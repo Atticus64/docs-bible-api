@@ -17,7 +17,6 @@ export default defineConfig({
 		search: {
 			provider: 'local'
 		},
-		// https://vitepress.dev/reference/default-theme-config
 		nav: [
 			{ text: 'Home', link: '/' },
 			{ text: 'Examples', link: '/api/book' }
