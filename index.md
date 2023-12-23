@@ -1,18 +1,22 @@
 ---
 # https://vitepress.dev/reference/default-theme-home-page
 layout: home
+title: Docs 
 
 hero:
-  name: "Bible Api Docs"
+  name: "Bible Api"
   text: "Documentación de la bible-api"
   tagline: Accede a los versiculos, capitulos y libros de la biblia mediante una API
+  image:
+    src: /images/snap.png
+    alt: Bible Api
   actions:
     - theme: brand
-      text: Book info endpoint
-      link: /api/book
+      text: Ver Documentación
+      link: /api/books
     - theme: alt
-      text: Markdown Examples
-      link: /api/markdown-examples
+      text: Ver Github
+      link: https://github.com/Atticus64/BibleApi
 
 features:
   - title: Accesible 📝

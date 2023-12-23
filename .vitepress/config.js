@@ -19,27 +19,29 @@ export default defineConfig({
 		},
 		nav: [
 			{ text: 'Home', link: '/' },
-			{ text: 'Examples', link: '/api/book' }
+			{ text: 'Examples', link: '/api/examples' }
 		],
 
 		sidebar: [
 			{
 				text: 'Api Enpoints',
 				items: [
-					{ text: 'Book', link: '/api/book' }
-
+					{ text: 'Book', link: '/api/books' },
+					{ text: 'Versions', link: '/api/versions' },
+					{ text: 'Verses', link: '/api/verses' },
+					{ text: 'Chapter', link: '/api/chapter' }
 				],
 			},
 			{
 				text: 'Examples',
 				items: [
-					{ text: 'Markdown Examples', link: '/api/markdown-examples' },
+					{ text: 'Api Examples', link: '/api/examples' },
 				]
 			}
 		],
 
 		socialLinks: [
-			{ icon: 'github', link: 'https://github.com/atticus64/bible-api' }
+			{ icon: 'github', link: 'https://github.com/atticus64/bibleapi' }
 		]
 	}
 })

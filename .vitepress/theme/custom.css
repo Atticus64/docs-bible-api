@@ -30,6 +30,10 @@
  * Colors Theme
  * -------------------------------------------------------------------------- */
 
+html {
+	scroll-behavior: smooth;
+}
+
 :root {
   --vp-c-bg: #ffffff;
 	
@@ -165,4 +169,14 @@
 
 body {
   -webkit-font-smoothing: subpixel-antialiased;
+}
+
+.VPImage.image-src {
+  max-width: 1000px;
+}
+
+@media screen and (max-width: 960px) {
+  .VPHero.has-image .image {
+    display: none;
+  }
 }
