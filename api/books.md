@@ -21,7 +21,7 @@ interface ResponseBook {
 }
 ```
 
-> La propiedad `BookName` necesita ser un libro de la biblia valido o una abreviatura
+> La propiedad `BookName` necesita ser un libro de la biblia válido o una abreviatura
 
 ```ts
 const books = [

@@ -2,25 +2,25 @@
 
 `/api/read/<Version>/<BookName> | <Abrev> /<Chapter>/<Verse> | <Range>`
 
-Este endpoint devuelve el versiculo/versiculos de la cita solicitada
+Este endpoint devuelve el versículo/versículos de la cita solicitada
 
 ### Condiciones
 
-* `<Version>` debe ser una version valida de la biblia soportada por la api
+* `<Version>` debe ser una versión valida de la biblia soportada por la api
 
 Puede ver las versiones soportadas en la seccion de [Versions](/api/versions)
 
-* `<BookName>` debe ser un libro valido dentro de la version que se solicita
+* `<BookName>` debe ser un libro válido dentro de la versión que se solicita
 
 Puede ver los libros soportados en la seccion de [Books](/api/books#libros-y-abreviaturas)
 
-* `<Abrev>` debe ser una abreviatura valida dentro del libro que se solicita
+* `<Abrev>` debe ser una abreviatura válida dentro del libro que se solicita
 
 Puede ver las abreviaturas soportadas en la seccion de [Books](api/books#libros-y-abreviaturas)
 
-* `<Chapter>` debe ser un capitulo valido dentro del libro que se solicita
-* `<Verse>` debe ser un versiculo valido dentro del capitulo que se solicita
-* `<Range>` debe ser un rango valido de versiculos dentro del capitulo que se solicita
+* `<Chapter>` debe ser un capítulo válido dentro del libro que se solicita
+* `<Verse>` debe ser un versículo válido dentro del capítulo que se solicita
+* `<Range>` debe ser un rango válido de versículos dentro del capítulo que se solicita
 
 
 ## Ejemplos  

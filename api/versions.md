@@ -35,7 +35,7 @@ type Versions = Version[];
     "uri": "/api/read/rv1995"
   },
   {
-    "name": "Nueva version internacional",
+    "name": "Nueva versióninternacional",
     "version": "nvi",
     "uri": "/api/read/nvi"
   },

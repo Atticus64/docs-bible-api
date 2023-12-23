@@ -6,7 +6,7 @@ title: Docs
 hero:
   name: "Bible Api"
   text: "Documentación de la bible-api"
-  tagline: Accede a los versiculos, capitulos y libros de la biblia mediante una API
+  tagline: Accede a los versículos, capitulos y libros de la biblia mediante una API
   image:
     src: /images/snap.png
     alt: Bible Api
@@ -20,7 +20,7 @@ hero:
 
 features:
   - title: Accesible 📝
-    details: Versiculos y Pasajes fáciles de consultar 
+    details: versículos y Pasajes fáciles de consultar 
   - title: Rápida ⚡
     details: Accede a tu informacion con la minima latencia posible
   - title: Soporte de varias versiones de la Biblia 📚
