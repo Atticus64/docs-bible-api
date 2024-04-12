@@ -5,6 +5,8 @@
 
 `/api/book/<BookName>`
 
+> La propiedad `BookName` necesita ser un libro de la biblia válido o una abreviatura
+
 Este endpoint devuelve la información de un libro de la Biblia.
 
 * https://bible-api.deno.dev/api/book/genesis
@@ -14,23 +16,11 @@ Este endpoint devuelve la información de un libro de la Biblia.
 
 ```ts
 interface ResponseBook {
-	name: string
+	name: string[]
 	abrev: string	
 	chapters: number
 	testament: string
 }
-```
-
-> La propiedad `BookName` necesita ser un libro de la biblia válido o una abreviatura
-
-```ts
-const books = [
-    'genesis',
-    'exodo',
-    'levitico',
-    'numeros',
-    // ...
-]
 ```
 
 ## Libros y Abreviaturas Soportadas por la Api
