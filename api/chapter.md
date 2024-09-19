@@ -7,7 +7,7 @@ Este endpoint devuelve el versículo/versículos de la cita solicitada
 
 ## Condiciones
 
-* `<Version>` debe ser una versiónvalida de la biblia soportada por la api
+* `<Version>` debe ser una versión valida de la biblia soportada por la api
 
 Puede ver las versiones soportadas en la seccion de [Versions](/api/versions)
 
